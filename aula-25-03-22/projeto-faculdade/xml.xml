@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sped="http://sped.fazenda.gov.br/">
+    <soapenv:Header />
+    <soapenv:Body>
+        <sped:ReceberLoteEventos>
+            <sped:loteEventos>
+                <Reinf xmlns="http://www.reinf.esocial.gov.br/schemas/envioLoteEventos/v1_05_01">
+                    <loteEventos>
+                        <evento id="ID1110554290000002022031710064900001">
+                            <Reinf xmlns="http://www.reinf.esocial.gov.br/schemas/evtTomadorServicos/v1_05_01">
+                                <evtServTom id="ID1110554290000002022031710064900001">
+                                    <ideEvento>
+                                        <indRetif>1</indRetif>
+                                        <perApur>2022-02</perApur>
+                                        <tpAmb>2</tpAmb>
+                                        <procEmi>1</procEmi>
+                                        <verProc>1.0</verProc>
+                                    </ideEvento>
+                                    <ideContri>
+                                        <tpInsc>1</tpInsc>
+                                        <nrInsc>11055429</nrInsc>
+                                    </ideContri>
+                                    <infoServTom>
+                                        <ideEstabObra>
+                                            <tpInscEstab>1</tpInscEstab>
+                                            <nrInscEstab>11055429000100</nrInscEstab>
+                                            <indObra>0</indObra>
+                                            <idePrestServ>
+                                                <cnpjPrestador>10197772000119</cnpjPrestador>
+                                                <vlrTotalBruto>250,00</vlrTotalBruto>
+                                                <vlrTotalBaseRet>250,00</vlrTotalBaseRet>
+                                                <vlrTotalRetPrinc>24,50</vlrTotalRetPrinc>
+                                                <vlrTotalRetAdic>0,00</vlrTotalRetAdic>
+                                                <vlrTotalNRetPrinc>0,00</vlrTotalNRetPrinc>
+                                                <vlrTotalNRetAdic>0,00</vlrTotalNRetAdic>
+                                                <indCPRB>0</indCPRB>
+                                                <nfs>
+                                                    <serie>U</serie>
+                                                    <numDocto>58009</numDocto>
+                                                    <dtEmissaoNF>2022-02-01</dtEmissaoNF>
+                                                    <vlrBruto>100,00</vlrBruto>
+                                                    <infoTpServ>
+                                                        <tpServico>100000009</tpServico>
+                                                        <vlrBaseRet>100,00</vlrBaseRet>
+                                                        <vlrRetencao>11,00</vlrRetencao>
+                                                        <vlrRetSub>0,00</vlrRetSub>
+                                                        <vlrNRetPrinc>0,00</vlrNRetPrinc>
+                                                        <vlrServicos15>0,00</vlrServicos15>
+                                                        <vlrServicos20>0,00</vlrServicos20>
+                                                        <vlrServicos25>0,00</vlrServicos25>
+                                                        <vlrAdicional>0,00</vlrAdicional>
+                                                        <vlrNRetAdic>0,00</vlrNRetAdic>
+                                                    </infoTpServ>
+                                                </nfs>
+                                                <nfs>
+                                                    <serie>U</serie>
+                                                    <numDocto>58010</numDocto>
+                                                    <dtEmissaoNF>2022-02-01</dtEmissaoNF>
+                                                    <vlrBruto>150,00</vlrBruto>
+                                                    <infoTpServ>
+                                                        <tpServico>100000010</tpServico>
+                                                        <vlrBaseRet>150,00</vlrBaseRet>
+                                                        <vlrRetencao>13,50</vlrRetencao>
+                                                        <vlrRetSub>0,00</vlrRetSub>
+                                                        <vlrNRetPrinc>0,00</vlrNRetPrinc>
+                                                        <vlrServicos15>0,00</vlrServicos15>
+                                                        <vlrServicos20>0,00</vlrServicos20>
+                                                        <vlrServicos25>0,00</vlrServicos25>
+                                                        <vlrAdicional>0,00</vlrAdicional>
+                                                        <vlrNRetAdic>0,00</vlrNRetAdic>
+                                                    </infoTpServ>
+                                                </nfs>
+                                            </idePrestServ>
+                                        </ideEstabObra>
+                                    </infoServTom>
+                                </evtServTom>
+                                <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+                                    <SignedInfo>
+                                        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+                                        <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+                                        <Reference URI="#ID1110554290000002022031710064900001">
+                                            <Transforms>
+                                                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                                                <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+                                            </Transforms>
+                                            <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                                            <DigestValue>dOlJur0PvDY+MZSIxsTn8rxt0Q8cRhNlX5ntiAv8Spg=</DigestValue>
+                                        </Reference>
+                                    </SignedInfo>
+                                    <SignatureValue>ABPV60KbWesKPepkJ/eI3adc2uRMxNRmmr1AkKC5ZAkCDrpzWGqFxw3+JfqW6UWB0c6lzK+dTR9N2TN92z0Iwvy0Pq8nDBxCIh6v4qc6UNNcEV42kkjLgozovPdGUh5snQrA7ZxYyfplveDspqN1vJ+RwUD8Cckme9/NopjAdn++7qFaRNbRSL41cKgwbiqv1Q7B8MgyCfSl36rhoMnEd6HTjSN50TDbsAjA3UbuvBQd8QgiGLNrZI4eCxBWUa3dd9N6Pebfi1KN6Hr0dmH6W9wVwn3tAv/s7f9hFqXFqoZnwoxvrkQfjj7jYA9s2LQ7++KQpJuL/Q81vMwtYamZag==</SignatureValue>
+                                    <KeyInfo>
+                                        <X509Data>
+                                            <X509Certificate>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</X509Certificate>
+                                        </X509Data>
+                                    </KeyInfo>
+                                </Signature>
+                            </Reinf>
+                        </evento>
+                    </loteEventos>
+                </Reinf>
+            </sped:loteEventos>
+        </sped:ReceberLoteEventos>
+    </soapenv:Body>
+</soapenv:Envelope>
